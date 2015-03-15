@@ -1,0 +1,22 @@
+{
+    "localServerPort": 1080,
+    "cdn": "",
+    "combocdn": "",
+    "comborealcdn":"",
+    "testcdn":"",
+    "programcdn":"",
+
+    "svn":{
+        "html":"",
+        "code":"",
+        "program":"",
+        "widget":"",
+        "debug":0
+    },
+    "ContentType":"GBK",
+    "build":{
+        "widgetIncludeComment":false,
+        "alias":{
+        }
+    }
+}
