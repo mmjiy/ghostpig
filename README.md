@@ -4,12 +4,23 @@
 config.json说明
 
 {
-    "localServerPort": 1080,                                 //本地测试端口【同一个项目最好测试的端口都一致】
-    "cdn": "http://172.18.4.201:1080",                       //本地测试的路径
-    "combocdn": "http://cb-c.poco.cn/pocowap",               //combo 服务器存放的SVN
-    "comborealcdn":"http://cb-c.poco.cn/assets/pocowap",     //combo 服务器对应的真实目录路径【为了WIDGET CSS里面的图片能够正常显示】
-    "testcdn":"http://m.poco.cn/vision/test",                //html 存放测试的html的路径
-    "programcdn":"http://m.poco.cn/vision/test/viewcode",    //项目存放的路径
+    //本地测试端口【同一个项目最好测试的端口都一致】
+    "localServerPort": 1080,
+
+    //本地测试的路径
+    "cdn": "http://172.18.4.201:1080",
+
+    //combo 服务器存放的SVN
+    "combocdn": "http://cb-c.poco.cn/pocowap",
+
+    //combo 服务器对应的真实目录路径【为了WIDGET CSS里面的图片能够正常显示】
+    "comborealcdn":"http://cb-c.poco.cn/assets/pocowap",
+
+    //html 存放测试的html的路径
+    "testcdn":"http://m.poco.cn/vision/test",
+
+    //项目存放的路径
+    "programcdn":"http://m.poco.cn/vision/test/viewcode",
 
     "svn":{
         //HTML发布的SVN
@@ -31,7 +42,7 @@ config.json说明
     "build":{
         "widgetIncludeComment":false,  //是否使用widget注释
         "alias":{
-            "Handlebars":"H"           配置seajs 依赖
+            "Handlebars":"H"           //配置seajs 依赖
         }
     }
 }
