@@ -24,16 +24,16 @@ config.json说明
 
     "svn":{
         //HTML发布的SVN
-        "html":"http://svn.poco.cn:8088/repos/htdocs232_repo/poco/new_mobile/vision/test/html",
+        "html":"",
 
         //js/css/image 的combo svn
-        "code":"http://svn.poco.cn:8088/repos/htdocs232_repo/poco/combo/assets/pocowap",
+        "code":"",
 
         //项目存放的svn
-        "program":"http://svn.poco.cn:8088/repos/htdocs232_repo/poco/new_mobile/vision/test/viewcode",
+        "program":"",
 
         //widget库的svn
-        "widget":"http://svn.poco.cn:8088/repos/htdocs232_repo/poco/combo/assets/widget",
+        "widget":"",
 
         //是否开启svn的debug信息(0,1,2)
         "debug":0
