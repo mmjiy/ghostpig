@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+.svn
+.DS_Store
+.git
+.idea
+test

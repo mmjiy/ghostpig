@@ -1,0 +1,208 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\pocouser\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\pocouser\\AppData\\Roaming\\npm-cache\\ghostpig\\1.0.2\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package.tgz
+13 verbose folder .
+14 info prepublish ghostpig@1.0.2
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\pocouser\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 7bbee64c-cache-ghostpig-1-0-2-package-tgz tar://C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package.tgz
+18 verbose lock tar://C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package.tgz C:\Users\pocouser\AppData\Roaming\npm-cache\7bbee64c-cache-ghostpig-1-0-2-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 7bbee64c-cache-ghostpig-1-0-2-package-tgz tar://C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package.tgz
+22 silly lockFile 7bbee64c-cache-ghostpig-1-0-2-package-tgz tar://C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package.tgz
+23 silly lockFile c3a8f53d-npm-cache-ghostpig-1-0-2-package C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package
+24 verbose lock C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package C:\Users\pocouser\AppData\Roaming\npm-cache\c3a8f53d-npm-cache-ghostpig-1-0-2-package.lock
+25 silly lockFile c3a8f53d-npm-cache-ghostpig-1-0-2-package C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package
+26 silly lockFile c3a8f53d-npm-cache-ghostpig-1-0-2-package C:\Users\pocouser\AppData\Roaming\npm-cache\ghostpig\1.0.2\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'ghostpig',
+29 silly publish   description: 'GhostPig前端开发集成解决方案',
+29 silly publish   version: '1.0.2',
+29 silly publish   author: { name: 'mmjiyyijmm', email: '514402716@qq.com' },
+29 silly publish   homepage: 'https://github.com/mmjiy/ghostpig',
+29 silly publish   keywords: [ 'GhostPig', 'ghostpig', 'jdf', 'seajs' ],
+29 silly publish   license: 'MIT',
+29 silly publish   bin: { ghostpig: 'bin/ghostpig', GP: 'bin/GP' },
+29 silly publish   engines: { node: '>= 0.8.0' },
+29 silly publish   main: 'index.js',
+29 silly publish   scripts: { test: 'test/test.js' },
+29 silly publish   repository: { type: 'git', url: 'https://github.com/mmjiy/ghostpig' },
+29 silly publish   bugs: { url: 'https://github.com/mmjiy/ghostpig/issues' },
+29 silly publish   preferGlobal: true,
+29 silly publish   dependencies:
+29 silly publish    { 'atropa-jslint': '0.1.2',
+29 silly publish      'clean-css': '2.1.8',
+29 silly publish      colors: '1.0.2',
+29 silly publish      csslint: '0.10.0',
+29 silly publish      ftp: '0.3.6',
+29 silly publish      htmllint: '0.0.7',
+29 silly publish      'js-beautify': '1.5.4',
+29 silly publish      less: '1.3.3',
+29 silly publish      'node-images': '1.5.5',
+29 silly publish      'node-pngquant-native': '0.0.11',
+29 silly publish      'node-sass': '0.9.3',
+29 silly publish      'node-watch': '0.3.4',
+29 silly publish      q: '1.0.1',
+29 silly publish      'simple-prompt': '0.2.1',
+29 silly publish      tar: '0.1.19',
+29 silly publish      'uglify-js': '2.4.12',
+29 silly publish      velocityjs: '0.4.3',
+29 silly publish      ws: '0.4.31',
+29 silly publish      'iconv-lite': '0.4.7',
+29 silly publish      handlebars: '3.0.0',
+29 silly publish      cheerio: '0.18.0' },
+29 silly publish   maintainers:
+29 silly publish    [ { name: 'putaoshu', email: 'putaoshu@126.com' },
+29 silly publish      { name: 'chenxiaochun', email: 'sjzchenxiaochun@126.com' } ],
+29 silly publish   directories: {},
+29 silly publish   _shasum: '1dd0f53a1ce241fb5c9b9db89b7b904e19396770',
+29 silly publish   _resolved: 'https://registry.npmjs.org/jdf/-/jdf-1.6.47.tgz',
+29 silly publish   readme: 'README.md',
+29 silly publish   gitHead: 'e6b4033c23f58e0d3bbd909a824cc91abe956980',
+29 silly publish   _id: 'ghostpig@1.0.2',
+29 silly publish   _from: '.' }
+30 verbose request where is /ghostpig
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id d55e629217612448
+33 verbose url raw /ghostpig
+34 verbose url resolving [ 'https://registry.npmjs.org/', './ghostpig' ]
+35 verbose url resolved https://registry.npmjs.org/ghostpig
+36 verbose request where is https://registry.npmjs.org/ghostpig
+37 info trying registry request attempt 1 at 11:48:40
+38 http PUT https://registry.npmjs.org/ghostpig
+39 http 502 https://registry.npmjs.org/ghostpig
+40 verbose bad json <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+40 verbose bad json <html><head>
+40 verbose bad json <title>502 Bad Gateway</title>
+40 verbose bad json </head><body>
+40 verbose bad json <h1>Bad Gateway</h1>
+40 verbose bad json <p>The proxy server received an invalid
+40 verbose bad json response from an upstream server.<br />
+40 verbose bad json </p>
+40 verbose bad json </body></html>
+41 error registry error parsing json
+42 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+42 info retry <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+42 info retry <html><head>
+42 info retry <title>502 Bad Gateway</title>
+42 info retry </head><body>
+42 info retry <h1>Bad Gateway</h1>
+42 info retry <p>The proxy server received an invalid
+42 info retry response from an upstream server.<br />
+42 info retry </p>
+42 info retry </body></html>
+43 info trying registry request attempt 2 at 11:48:52
+44 http PUT https://registry.npmjs.org/ghostpig
+45 http 503 https://registry.npmjs.org/ghostpig
+46 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+46 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+46 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+46 verbose bad json <html>
+46 verbose bad json   <head>
+46 verbose bad json     <title>503 backend read error</title>
+46 verbose bad json   </head>
+46 verbose bad json   <body>
+46 verbose bad json     <h1>Error 503 backend read error</h1>
+46 verbose bad json     <p>backend read error</p>
+46 verbose bad json     <h3>Guru Mediation:</h3>
+46 verbose bad json     <p>Details: cache-nrt6130-NRT 1425959350 1822555608</p>
+46 verbose bad json     <hr>
+46 verbose bad json     <p>Varnish cache server</p>
+46 verbose bad json   </body>
+46 verbose bad json </html>
+47 error registry error parsing json
+48 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+48 info retry
+48 info retry <?xml version="1.0" encoding="utf-8"?>
+48 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+48 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+48 info retry <html>
+48 info retry   <head>
+48 info retry     <title>503 backend read error</title>
+48 info retry   </head>
+48 info retry   <body>
+48 info retry     <h1>Error 503 backend read error</h1>
+48 info retry     <p>backend read error</p>
+48 info retry     <h3>Guru Mediation:</h3>
+48 info retry     <p>Details: cache-nrt6130-NRT 1425959350 1822555608</p>
+48 info retry     <hr>
+48 info retry     <p>Varnish cache server</p>
+48 info retry   </body>
+48 info retry </html>
+49 info trying registry request attempt 3 at 11:50:08
+50 http PUT https://registry.npmjs.org/ghostpig
+51 http 502 https://registry.npmjs.org/ghostpig
+52 verbose bad json <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+52 verbose bad json <html><head>
+52 verbose bad json <title>502 Bad Gateway</title>
+52 verbose bad json </head><body>
+52 verbose bad json <h1>Bad Gateway</h1>
+52 verbose bad json <p>The proxy server received an invalid
+52 verbose bad json response from an upstream server.<br />
+52 verbose bad json </p>
+52 verbose bad json </body></html>
+53 error registry error parsing json
+54 verbose headers { date: 'Tue, 10 Mar 2015 03:50:11 GMT',
+54 verbose headers   server: 'Apache',
+54 verbose headers   'content-length': '232',
+54 verbose headers   'keep-alive': 'timeout=10, max=50',
+54 verbose headers   connection: 'Keep-Alive',
+54 verbose headers   'content-type': 'text/html; charset=iso-8859-1' }
+55 error publish Failed PUT 502
+56 error SyntaxError: Unexpected token <
+56 error <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+56 error <html><head>
+56 error <title>502 Bad Gateway</title>
+56 error </head><body>
+56 error <h1>Bad Gateway</h1>
+56 error <p>The proxy server received an invalid
+56 error response from an upstream server.<br />
+56 error </p>
+56 error </body></html>
+56 error
+56 error     at Object.parse (native)
+56 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:274:23)
+56 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+56 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+56 error     at Request.emit (events.js:98:17)
+56 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+56 error     at Request.emit (events.js:117:20)
+56 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+56 error     at IncomingMessage.emit (events.js:117:20)
+56 error     at _stream_readable.js:944:16
+57 error If you need help, you may report this *entire* log,
+57 error including the npm and node versions, at:
+57 error     <http://github.com/npm/npm/issues>
+58 error System Windows_NT 6.2.9200
+59 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+60 error cwd F:\Bosco\webstorm\ghostpig
+61 error node -v v0.10.35
+62 error npm -v 1.4.28
+63 error type unexpected_token
+64 verbose exit [ 1, true ]
